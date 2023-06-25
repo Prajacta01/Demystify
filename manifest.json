@@ -1,10 +1,17 @@
 {
-    "name": "pspspspspsps",
-    "version": "1.0.0",
-    "description": "hewo",
-    "manifest_version": 3,
-    "action": {
-        "default_popup": "index.html",
-        "default_title": "pspspspspsps"
-    }
+  "name": "demystify",
+  "version": "1.0.0",
+  "description": "helps you understand terms and conditions",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "demystify"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "icons": {
+    "128": "icons/praj.png"
+  }
 }
