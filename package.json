@@ -1,0 +1,11 @@
+{
+  "name": "demystify",
+  "version": "1.0.0",
+  "description": "A chrome extension that helps you understand terms and conditions.",
+  "main": "popupScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
