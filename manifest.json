@@ -9,7 +9,8 @@
   },
   "permissions": [
     "tabs",
-    "activeTab"
+    "activeTab",
+    "scripting"
   ],
   "icons": {
     "128": "icons/praj.png"
