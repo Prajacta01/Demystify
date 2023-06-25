@@ -18,7 +18,8 @@ scrapePage.addEventListener('click', async () => {
 function scrapePageContents() {
   
 
-  let content = document.body.innerHTML
+  let content = document.body.innerText
+  console.log(content, 'here')
 
   chrome.runtime.sendMessage({content})
 }
