@@ -3,14 +3,34 @@
     
 <head>
     <title>demystify</title>
-    <link ref="stylesheet" href="style.css"/>
+    <link ref="stylesheet" href="styles.css"/>
+    <style>
+        body {
+            min-width: 300px;
+            background-color: #435B66;
+            color: white;
+            padding: 2.5%
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            margin-bottom: 15px;
+            width: 80%;
+        }
+    </style>
 </head>
-<body style="width: 300px;height:200px">
+<body>
     <div class="center">
-        <h2>hi</h2>
-        <button id="scrapePage">Scrape Page</button>
+        <h2>demystify</h2>
+        <p>Understand the terms and conditions you agree to</p>
+        <button id="scrapePage">Get Summary</button>
+        <button id="worryAbout">Anything to Worry About?</button>
+        <button id="askQuestions">Ask Questions</button>
         <script src="popupScript.js"></script>
-        
     </div>
 </body>
 

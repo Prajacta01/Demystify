@@ -16,8 +16,6 @@ scrapePage.addEventListener('click', async () => {
 })
 
 function scrapePageContents() {
-  
-
   let content = document.body.innerText
   console.log(content, 'here')
 

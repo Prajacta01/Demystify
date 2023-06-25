@@ -1,7 +1,12 @@
 body {
   min-width: 300px;
+  background-color: pink;
 }
 
 .center {
   text-align: center;
+}
+
+button {
+  display: block;
 }
