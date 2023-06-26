@@ -14,5 +14,15 @@
   ],
   "icons": {
     "128": "icons/praj.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "main.js", "updatePinecone.js", "querying.js"
+      ]
+    }
+  ]
 }
